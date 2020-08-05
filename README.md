@@ -1,24 +1,55 @@
 # CommunityStudy
-在线问答社区
-### 深拷贝和浅拷贝
-![](https://img-blog.csdnimg.cn/20200103213220764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly90aGlua3dvbi5ibG9nLmNzZG4ubmV0,size_16,color_FFFFFF,t_70)
+# 问答社区开发学习
 
-浅拷贝（shallowCopy）**只是增加了一个指针指向已存在的内存地址**
+对该问答社区的开发和学习使本人对于Web项目的后端开发中的开发流程、数据库、框架等技术的使用有了更深入的了解，收获颇多。
 
-深拷贝（deepCopy）**是增加了一个指针并且申请了一个新的内存，使这个增加的指针指向这个新的内存，**
+## 功能列表
 
-使用深拷贝的情况下，释放内存的时候不会因为出现浅拷贝时释放同一个内存的错误。
+注册、登录、在线问答、关注、点赞、通知、私信，搜索等功能。
 
-浅复制：仅仅是指向被复制的内存地址，如果原地址发生改变，那么浅复制出来的对象也会相应的改变。
+## 技术和工具
 
-深复制：在计算机中开辟一块新的内存地址用于存放复制的对象。
+| 技术            | 链接                                                 |
+| --------------- | ---------------------------------------------------- |
+| Spring Boot     | http://projects.spring.io/spring-boot/#quick-start   |
+| MyBatis         | https://mybatis.org/mybatis-3/zh/index.html          |
+| MySQL           | https://www.mysql.com                                |
+| Redis           | https://redis.io/                                    |
+| Kafak           | http://kafka.apache.org/                             |
+| Spring Security | https://spring.io/projects/spring-security           |
+| Themeleaf       | https://www.thymeleaf.org/documentation.html         |
+| Apache Maven    | http://maven.apache.org/                             |
+| Git             | https://git-scm.com/                                 |
+| ElasticSearch   | https://spring.io/projects/spring-data-elasticsearch |
 
-### 说一下堆栈的区别？
+## 开发流程
 
-**物理地址**
+1.开发社区首页
 
-**堆的物理地址分配对对象是不连续的。因此性能慢些。**在GC的时候也要考虑到不连续的分配，所以有各种算法。比如，标记-消除，复制，标记-压缩，分代（即新生代使用复制算法，老年代使用标记——压缩）
+2.开发注册，邮件发送，激活
 
-栈使用的是数据结构中的栈，**先进后出的原则，物理地址分配是连续的。所以性能快。**
+3.开发登录，账号设置，验证码
 
-**内存分别**
+4.过滤敏感词
+
+5.开发发布帖子，帖子详情
+
+6.开发评论和回复功能
+
+7.开发点赞、关注
+
+8.开发社区搜索功能
+
+## 图片展示
+
+<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805174713868.png" alt="image-20200805174713868" style="zoom:33%;" />
+
+<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805175206097.png" alt="image-20200805175206097" style="zoom:33%;" />
+
+<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805175142944.png" alt="image-20200805175142944" style="zoom:33%;" />
+
+<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805175406837.png" alt="image-20200805175406837" style="zoom:33%;" />
+
+<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805181739943.png" alt="image-20200805181739943" style="zoom:33%;" />
+
+<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805181745691.png" alt="image-20200805181745691" style="zoom:33%;" />
