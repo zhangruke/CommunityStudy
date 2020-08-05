@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1596547586&di=23f8ed5a5207f72cf48c732d7cd40e03&src=http://www.1990tu.com/i/20180903100055ctx.jpeg"/>
+    <title>论坛-激活账号</title>
+</head>
+<body>
+	<div>
+		<p>
+			<b th:text="${email}">xxx@xxx.com</b>, 您好!
+		</p>
+		<p>
+			您正在注册, 这是一封激活邮件, 请点击
+			<a th:href="${url}">此链接</a>,
+			激活您的账号!
+		</p>
+	</div>
+</body>
+</html>
