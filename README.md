@@ -42,14 +42,3 @@
 
 ## 图片展示
 
-<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805174713868.png" alt="image-20200805174713868" style="zoom:33%;" />
-
-<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805175206097.png" alt="image-20200805175206097" style="zoom:33%;" />
-
-<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805175142944.png" alt="image-20200805175142944" style="zoom:33%;" />
-
-<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805175406837.png" alt="image-20200805175406837" style="zoom:33%;" />
-
-<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805181739943.png" alt="image-20200805181739943" style="zoom:33%;" />
-
-<img src="C:\Users\张儒珂\AppData\Roaming\Typora\typora-user-images\image-20200805181745691.png" alt="image-20200805181745691" style="zoom:33%;" />
