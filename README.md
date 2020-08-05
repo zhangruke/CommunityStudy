@@ -39,7 +39,7 @@
 
 8.开发社区搜索功能
 
-## 图片展示
+## 网站截图展示
 <img src="https://img2020.cnblogs.com/blog/1961891/202008/1961891-20200805212303666-1671997354.png" alt="img" style="zoom:33%;" />
 
 <img src="https://img2020.cnblogs.com/blog/1961891/202008/1961891-20200805212340145-1536135511.png" alt="img" style="zoom:33%;" />
